@@ -65,6 +65,7 @@ public:
 		motor2 = motor_power;
 		Playback >> motor_power;
 		motor3 = motor_power;
+		playback();
 	}
 private:
 	Timer timer;
